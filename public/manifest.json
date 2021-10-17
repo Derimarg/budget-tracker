@@ -1,4 +1,11 @@
 {
+  "name": "Budget Tracker",
+  "short_name": "BTracker",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "An app that allows you to track your budget.",
+  "background_color": "#6666ff",
+  "theme_color": "#ffffff",
   "icons": [
     {
       "src": "icons/icon-512x512.png",
@@ -40,12 +47,5 @@
       "sizes": "72x72",
       "type": "image/png"
     }
-  ],
-  "name": "Budget Tracker",
-  "short_name": "BTracker",
-  "display": "standalone",
-  "start_url": ".",
-  "description": "An app that allows you to track your budget.",
-  "background_color": "#6666ff",
-  "theme_color": "#ffffff"
+  ]
 }
