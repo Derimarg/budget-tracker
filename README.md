@@ -11,8 +11,6 @@
 <br />
 <p align="center">
 
-
-
 <h3 align="center" id="budget-tracker">Budget Tracker</h3>
 
 <p align="center">
@@ -21,7 +19,7 @@ As an avid traveler I want to be able to track my withdrawals and deposits with 
 <a href="#how-to-download"><strong>Explore the docs »</strong></a>
 <br />
 <br />
-<a href="#">View Demo</a>
+<a href="#example">View Demo</a>
 .
 <a href="https://github.com/Derimarg/budget-tracker/issues">Report Bug</a>
 ·
@@ -31,7 +29,7 @@ As an avid traveler I want to be able to track my withdrawals and deposits with 
 <br />
 <br />
 
-
+> Link web page: https://dg-budget-tracker.herokuapp.com/
 
 <details open="open">
 <summary>Table of Contents</summary>
@@ -60,14 +58,25 @@ This is an app that will allow to track withdrawals and deposits with or without
 
 - When the user reestablishes an internet connection, the deposits or expenses added while they were offline are added to their transaction history and their totals are updated.
 
-## Technologies
+<br />
+<br />
+<br/>
+
+## Example
+
+<br />
+
+![Demo](/public/images/demo.png)
+
+<br />
 
 - <p><a href="https://nodejs.org/">Node.js</a></p>
 - <p><a href="https://www.mongodb.com/">MongoDB</a></p>
 - <p><a href="https://www.npmjs.com/">NPM</a></p>
 - <p><a href="https://www.npmjs.com/package/express">NPM Express</a></p>
 - <p><a href="https://www.npmjs.com/package/mongoose">NPM Mongoose</a></p>
-- <p><a href="https://www.npmjs.com/package/moment">NPM Moment</a></p>
+- <p><a href="https://www.npmjs.com/package/compression">NPM Compression</a></p>
+- <p><a href="https://www.npmjs.com/package/morgan">NPM Morgan</a></p>
 
 [Back To Top](#budget-tracker)
 
@@ -154,9 +163,25 @@ For additional help or questions about collaboration, contact me at: derimargray
 
 MIT License
 
-Copyright © 2021, Derimar Gray.
+Copyright (c) 2021 Derimar Gray
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
   
 
 [repo-size]: https://img.shields.io/github/repo-size/Derimarg/budget-tracker?style=for-the-badge
